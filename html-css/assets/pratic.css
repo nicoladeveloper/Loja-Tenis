@@ -1,0 +1,43 @@
+/* [title= Netflix] {
+    color: brown;
+}
+[title = Prime] {
+    color: blue;
+}
+[title = Spotify] {
+    color: forestgreen;
+    
+}
+[title = Disney] {
+    color: aqua;
+}
+li, h1 {
+    background-color: rgba(194, 194, 194, 0.33);
+} */
+.fundo-verde li{
+    background-color: mediumspringgreen;
+}
+.fundo-azul li{
+    background-color: rgba(0, 0, 255, 0.204);
+}
+
+li{
+    color: rgb(4, 54, 221);
+}
+.fundo-verde #sublista-01 li{
+    color: black;
+}
+
+div > p {
+    background-color: rgb(127, 180, 255);
+}
+.fundo-verde > p{
+    background-color: rgb(13, 228, 149);
+}
+div + p {
+    color: red;
+}
+
+.fundo-verde + p {
+    background-color: rgba(165, 42, 42, 0.31);
+}
